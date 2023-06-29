@@ -1,0 +1,18 @@
+.container {
+    padding-top: 3px; 
+    padding-left: 2px;
+    border-bottom: 1px solid #777;
+    display: block;}
+    
+    .container span{
+       margin-left: .5%;
+       color:white;
+       font-size: 200%;
+       vertical-align: top;
+    
+    }
+    
+    .container img{
+    height: 30px;
+    vertical-align: top;
+    }
