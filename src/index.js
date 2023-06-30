@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './Component/Layout/Header';
-import Footer from './Component/Layout/Footer';
+import ContactIndex from './Component/ContactIndex';
+import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-
-    <Footer/>
+    <ContactIndex/>
   </React.StrictMode>
 );
 

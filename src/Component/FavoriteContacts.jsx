@@ -1,9 +1,14 @@
-const FavoriteContacts = ()=>{
+import { Fragment } from "react"
+import Contact from "./Contact"
+
+const FavoriteContacts = (props)=>{
 
     return(
-        <div>
-            <button className="btn btn-secondary form-control"> Favorite Contact </button>
-        </div>
+        <Fragment>
+            {props.contacts.map((item,index) =>(
+                <Contact key={index} contact={item}/>
+            ))}
+        </Fragment>
     )
 }
 export default FavoriteContacts
